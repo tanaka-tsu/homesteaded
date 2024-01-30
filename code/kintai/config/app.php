@@ -65,7 +65,11 @@ return [
     | will be used by the PHP date and date-time functions. We have gone
     | ahead and set this to a sensible default for you out of the box.
     |
+    */
+
     'timezone' => 'Asia/Tokyo',
+
+    /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration
     |--------------------------------------------------------------------------
@@ -74,7 +78,11 @@ return [
     | by the translation service provider. You are free to set this value
     | to any of the locales which will be supported by the application.
     |
-    'locale' => 'en',
+    */
+
+    'locale' => 'jp',
+
+    /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
     |--------------------------------------------------------------------------
@@ -83,7 +91,11 @@ return [
     | is not available. You may change the value to correspond to any of
     | the language folders that are provided through your application.
     |
-    'fallback_locale' => 'jp',
+    */
+
+    'fallback_locale' => 'en',
+
+    /*
     |--------------------------------------------------------------------------
     | Faker Locale
     |--------------------------------------------------------------------------
